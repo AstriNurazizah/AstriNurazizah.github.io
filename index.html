@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="src/input.css">
+    <title>Portofolio Astri</title>
+</head>
+<body>
+
+    <!-- header start -->
+    <header class=" bg-transparent absolute top-0 left-0 w-full flex items-center z-20">
+        <div class="container">
+            <!-- navgation -->
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#hero">
+                        <img src="dist/images/logo-icon 1.svg" alt="" >
+                    </a>
+                </div>
+                <div class="flex px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="hamburger absolute ">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+                    </button>
+
+                    <nav id="nav-menu" class="bar text-cyan absolute py-5  max-w-[250px] w-full right-4 top-full lg:static lg:bg-transparent lg:max-w-full">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#about" classe py-2 mx-8 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#work" classe py-2 mx-8 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out ">Work</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" classe py-2 mx-8 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero section start -->
+    <section id="hero" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4">
+                    <p class="font-normal text-cyan md:text-xl teks w-full self-end px-4">Hi👋, my name is</p>
+                    <h2 class="block font-bold text-primary text-4xl mt-1 w-full self-end px-4">Astri Nurazizah </h2>
+                        
+                    <div>
+                        <h3 class="font-semibold text-4xl text-primary w-full self-end px-4">I build things for the web.</h3>
+                    </div>
+                    <div>
+                        <p class="teks text-primary w-full self-end px-4">I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. 
+                            <br>
+                            Currently, I’m focused on building accessible, human-centered products at 
+                            <span class="font-semibold text-cyan">Upstatement.</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <a href="/dist/pdf/Curiculum Vitae.pdf.pdf" class="buttom text-primary self-end px-4 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">Resume</a>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    
+                    <!-- github -->
+                    <li>
+                    <a href="https://github.com/AstriNurazizah" aria-label="GitHub" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                            <title>GitHub</title>
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+
+                            </path>
+                        </svg>
+                    </a>
+                    </li>
+
+                    <!-- instagram -->
+                    <li>
+                    <a href="https://www.instagram.com/astrinurazizah" aria-label="Instagram" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                            <title>Instagram</title>
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5">
+                            </rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+                            </path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5">
+                            </line>
+                        </svg>
+                    </a>
+                    </li>
+
+                    <!-- linkedin -->
+                    <li>
+                    <a href="https://twitter.com/bchiang7" aria-label="Twitter" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                            <title>Twitter</title>
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    </li>
+
+                    <!-- linkedin -->
+                    <li>
+                    <a href="https://www.linkedin.com/in/bchiang7" aria-label="Linkedin" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                        <title>LinkedIn</title>
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                        </path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    </li>
+                </div>
+                <div class="email_">
+                    <div class="email fade-enter-done">
+                        <a href="mailto:astrinurazizah501@gmail.com" class="text-primary">astrinurazizah501@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-end px-4 mb-10">
+                    <h1 class=" numbered-heading font-bold text-primary text-4xl mt-1">ABOUT ME</h1>
+                </div>
+                    <div class="teks text-primary w-full self-end px-4 lg:w-1/2">
+                    <p>
+                        Hello! My name is Astri and I love making things live on the internet. My interest in design started in 2020 when I decided to try editing a photo and creating a design template.
+                    </p>
+                    <p>
+                        Fast forward to today, and I had the privilege of <span class="font-semibold text-cyan">studying</span> in college in a major that suited <span class="font-semibold text-cyan">my skills</span>. My main focus today is building accessible and inclusive products and digital experiences to be developed.
+                    </p>
+                    <p>
+                        Here are some of the technologies I've been using recently:
+                    </p>
+                    
+
+                    <p class="icons">
+                        JavaScript (ES6+)
+                        <br>
+                        TypeScript
+                        <br>
+                        React
+                        <br>
+                        Node.js
+                    </p>
+                </div>
+
+                <div class="img w-pull self-end px-4 mb-10 lg:w-1/2 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                    <div class=" mt-10 lg:mt-0 lg:right-0">
+                        <img src="dist/images/photos.png" alt="Astri Nurazizah"
+                        class="images max-w-full mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- working section start -->
+    <section id="work" class="p-0 ">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-end px-4 mb-24">
+                    <h1 class="numbered-heading font-bold text-primary text-4xl mt-1 ">SOME THINGS I’VE BUILT </h1>   
+                </div>
+                <!-- halcyon start -->
+                    <div class="teks text-primary w-full self-end px-4 lg:w-1/2">
+                        <p class="project-overline text-cyan">Featured Project</p>
+                        <h1 class="project-title font-bold 2text-xl ">HALCYON THEME</h1>
+                        <div class="project-description">
+                            <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on 
+                                <a href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode" target="_blank" rel="noopener noreferrer" class="text-cyan">Visual Studio Marketplace</a>,
+                                <a href="https://atom.io/themes/halcyon-syntax" target="_blank" rel="noopener noreferrer" class="text-cyan">Atom Package Manager</a>, and 
+                                <a href="https://www.npmjs.com/package/hyper-halcyon-theme" target="_blank" rel="noopener noreferrer" class="text-cyan ">npm</a>.
+                            </p>
+                        </div>
+                    
+                    <ul class="project-tech-list">
+                        <li>VS Code</li>
+                        <li>Atom</li>
+                        <li>iTerm2</li>
+                        <li>Hyper</li>
+                    </ul>
+
+                    <div class="project-links"> 
+                        <a href="https://github.com/AstriNurazizah" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                                <title>GitHub</title>
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="https://halcyon-theme.netlify.com/" aria-label="External Link" class="external" rel="noopener noreferrer" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                                <title>External Link</title>
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="img w-pull self-end px-4 lg:w-1/2 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                    <div class=" lg:mt-9 lg:right-0 ">
+                        <img src="dist/images/hyper-web.png" alt="Astri Nurazizah"
+                        class="max-w-full mx-auto">
+                    </div>
+                </div>
+                <!-- halycon end -->
+
+                <!-- desain start -->
+                <div class="img w-pull self-end px-4 lg:w-1/2 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                    <div class=" lg:mt-9 lg:right-0 ">
+                        <img src="dist/images/figma-photo.png" alt="Astri Nurazizah"
+                        class="max-w-full mx-auto">
+                    </div>
+                </div>   
+                <div class="teks text-primary w-full self-end px-4 lg:w-1/2">
+                    <p class="project-overline text-cyan">Featured Project</p>
+                    <h1 class="project-title font-bold 2text-xl ">DESAIN WEBSITE</h1>
+                    <div class="project-description">
+                        <p>Website application to display a beautiful display. See from all programmers designing and editing using several design applications including
+                            <a href="https://www.figma.com/community" target="_blank" rel="noopener noreferrer" class="text-cyan">Figma</a>,
+                            <a href="https://www.adobe.com/" target="_blank" rel="noopener noreferrer" class="text-cyan">Photoshop</a>, 
+                            <a href="https://www.corel.com/" target="_blank" rel="noopener noreferrer" class="text-cyan">CorelDraw</a>, and 
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="text-cyan ">Vsco</a>.
+                        </p>
+                    </div>
+                
+                    <ul class="project-tech-list">
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>CorelDraw</li>
+                        <li>Vsco</li>
+                    </ul>
+
+                <div class="project-links"> 
+                    <a href="https://github.com/AstriNurazizah" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                            <title>GitHub</title>
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="https://halcyon-theme.netlify.com/" aria-label="External Link" class="external" rel="noopener noreferrer" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                            <title>External Link</title>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+
+            <!-- desain end -->
+
+            <!-- notes start -->
+            <div class="teks text-primary w-full self-end px-4 lg:w-1/2">
+                <p class="project-overline text-cyan">Featured Project</p>
+                <h1 class="project-title font-bold 2text-xl ">NOTES APPS</h1>
+                <div class="project-description">
+                    <p>After struggling with understanding how to program <span class="text-cyan ">Javascript</span>, I created the <span class="text-cyan">Notes Apps</span> website which I wish I could grow and keep Notes private and confidential.</p>
+                </div>
+            
+                <ul class="project-tech-list">
+                    <li>Vscode</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>DOM</li>
+                </ul>
+
+            <div class="project-links"> 
+                <a href="https://github.com/AstriNurazizah" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                        <title>GitHub</title>
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://halcyon-theme.netlify.com/" aria-label="External Link" class="external" rel="noopener noreferrer" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                        <title>External Link</title>
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a>
+            </div>
+        </div>
+            <div class="img w-pull self-end px-4 lg:w-1/2 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">
+                <div class=" lg:mt-9 lg:right-0 ">
+                    <img src="dist/images/note-apps.png" alt="Astri Nurazizah"
+                    class="max-w-full mx-auto">
+                </div>
+            </div>
+            <!-- notes end -->
+            </div>
+        </div>
+    </section>
+    <!-- working  section end -->
+
+    <!-- section other start -->
+    <section class="pt-36 pb-32 ">
+        <div class="container">
+            <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h2 class="font-semibold text-primary text-4xl mb-2">Other Noteworthy Projects</h2>
+                <h3 class="font-medium text-cyan text-4xl mb-2">view the archive</h3>
+            </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4">
+                    <div class="mb-12 p-4">
+                        <div class="container mx-auto">
+                            <div class="grid text-primary">
+                            <div class="box">1</div>
+                            <div class="box">2</div>
+                            <div class="box">3</div>
+                            <div class="box">4</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- other end -->
+
+    <!-- footer section start -->
+    <section id="contact" class="pt-36 pb-16">
+        <div class="container">
+            <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h3 class="font-medium text-cyan text-4xl mb-2">What’s Next ?</h3>
+                <h1 class="font-semibold text-primary text-4xl mb-2">Get In Touch</h1>
+                <p class=" text-primary w-full self-end px-4">Although I’m not currently looking for any new opportunities, my inbox is always open. <br>
+                    Whether you have a question or just want to say hi, <br>
+                    I’ll try my best to get back to you!</p>
+            </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4">
+                    <div class="mb-12 p-4">
+                        <div class="container mx-auto">
+                            <div>
+                                <a href="" class="buttom text-primary self-end px-4 hover:shadwo-lg hover:opacity-80 transition duration-300 ease-in-out">Say Hallo!</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <footer>
+                        <ul id="footer" class="footer-ul text-primary justify-center">
+                        <li>
+                            <a href="#">Designed & Built by Astri Nurazizah</a>
+                        </li>
+                        <li>
+                            <a href="#">2023</a>
+                        </li>
+                        </ul>
+                    </footer>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
