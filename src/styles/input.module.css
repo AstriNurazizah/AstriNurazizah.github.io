@@ -1,0 +1,36 @@
+.input {
+  border: 1px solid #948979;
+  background-color: transparent;
+  outline: none;
+  border-radius: 0.4rem;
+  color: #948979;
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  min-width: 340px;
+}
+
+.input::placeholder {
+  color: #948979;
+}
+
+.input[type="search"] {
+  border: 0;
+  border-bottom: 2px solid #948979;
+  border-radius: 0;
+}
+
+.input[type="submit"] {
+  cursor: pointer;
+}
+
+.input[type="submit"]:hover {
+  background-color: #948979;
+  color: #363536;
+  font-weight: 700;
+}
+
+.textarea {
+  height: 10rem;
+  resize: none;
+}
